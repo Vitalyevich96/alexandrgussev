@@ -293,6 +293,14 @@ async def delete_message(
 
 from fastapi.responses import FileResponse
 
+@app.get("/googleddd09674c4d97235.html", include_in_schema=False)
+async def google_verification():
+    return FileResponse("googleddd09674c4d97235.html", media_type="text/html")
+
+@app.get("/yandex_3d12f0d5421d9e74.html", include_in_schema=False)
+async def yandex_verification():
+    return FileResponse("yandex_3d12f0d5421d9e74.html", media_type="text/html")
+
 @app.get("/sitemap.xml", include_in_schema=False)
 async def sitemap():
     return FileResponse("sitemap.xml", media_type="application/xml")
