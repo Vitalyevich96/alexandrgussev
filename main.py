@@ -291,6 +291,16 @@ async def delete_message(
     
     return {"status": "success", "message": "Message deleted successfully"}
 
+from fastapi.responses import FileResponse
+
+@app.get("/sitemap.xml", include_in_schema=False)
+async def sitemap():
+    return FileResponse("sitemap.xml", media_type="application/xml")
+
+@app.get("/robots.txt", include_in_schema=False)
+async def robots():
+    return FileResponse("robots.txt", media_type="text/plain")
+
 @app.get("/health")
 async def health_check():
     return {"status": "healthy", "service": "Python Portfolio"}
