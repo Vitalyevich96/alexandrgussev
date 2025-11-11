@@ -1,0 +1,258 @@
+{% extends "base.html" %}
+
+{% block title %}Админ-панель - Python Web Developer{% endblock %}
+
+{% block content %}
+<section class="page-header">
+    <div class="container">
+        <h1>Админ-панель</h1>
+        <p>Управление контентом и сообщениями</p>
+        <div class="admin-welcome">
+            Вы вошли как: <strong>{{ admin_username }}</strong>
+            <div class="admin-actions">
+                <a href="/admin/change-password" class="btn btn-small btn-secondary">
+                    <i class="fas fa-key"></i> Сменить пароль
+                </a>
+                <a href="/admin/logout" class="btn btn-small btn-danger">
+                    <i class="fas fa-sign-out-alt"></i> Выйти
+                </a>
+            </div>
+        </div>
+        </div>
+</section>
+
+<section class="admin-dashboard">
+    <div class="container">
+        <div class="admin-stats">
+            <div class="admin-stat-card">
+                <div class="stat-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="stat-info">
+                    <div class="stat-number">{{ messages|length }}</div>
+                    <div class="stat-label">Всего сообщений</div>
+                </div>
+            </div>
+            <div class="admin-stat-card">
+                <div class="stat-icon">
+                    <i class="fas fa-bell"></i>
+                </div>
+                <div class="stat-info">
+                    <div class="stat-number">{{ unread_messages }}</div>
+                    <div class="stat-label">Новых сообщений</div>
+                </div>
+            </div>
+            <div class="admin-stat-card">
+                <div class="stat-icon">
+                    <i class="fas fa-project-diagram"></i>
+                </div>
+                <div class="stat-info">
+                    <div class="stat-number">{{ projects_count }}</div>
+                    <div class="stat-label">Проектов</div>
+                </div>
+            </div>
+            <div class="admin-stat-card">
+                <div class="stat-icon">
+                    <i class="fas fa-cogs"></i>
+                </div>
+                <div class="stat-info">
+                    <div class="stat-number">{{ services_count }}</div>
+                    <div class="stat-label">Услуг</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="admin-messages">
+            <h2>Сообщения от клиентов</h2>
+            {% if messages %}
+            <div class="messages-list">
+                {% for message in messages %}
+                <div class="message-card {% if not message.read %}message-unread{% endif %}" id="message-{{ message.id }}">
+                    <div class="message-header">
+                        <div class="message-sender">
+                            <strong>{{ message.name }}</strong>
+                            <span>&lt;{{ message.email }}&gt;</span>
+                        </div>
+                        <div class="message-meta">
+                            <span class="message-date">{{ message.created_at.strftime('%d.%m.%Y %H:%M') }}</span>
+                            {% if message.company %}
+                            <span class="message-company">Компания: {{ message.company }}</span>
+                            {% endif %}
+                            {% if message.budget %}
+                            <span class="message-budget">Бюджет: {{ message.budget }}</span>
+                            {% endif %}
+                        </div>
+                    </div>
+                    <div class="message-body">
+                        <p>{{ message.message }}</p>
+                    </div>
+                    <div class="message-actions">
+                        {% if not message.read %}
+                        <button class="btn btn-small btn-primary mark-read" data-message-id="{{ message.id }}">
+                            <i class="fas fa-check"></i> Отметить прочитанным
+                        </button>
+                        {% else %}
+                        <span class="read-badge"><i class="fas fa-check-circle"></i> Прочитано</span>
+                        {% endif %}
+                        <a href="mailto:{{ message.email }}" class="btn btn-small btn-secondary">
+                            <i class="fas fa-reply"></i> Ответить
+                        </a>
+                        <button class="btn btn-small btn-danger delete-message" data-message-id="{{ message.id }}">
+                            <i class="fas fa-trash"></i> Удалить
+                        </button>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% else %}
+            <div class="no-messages">
+                <i class="fas fa-inbox" style="font-size: 3rem; color: #9ca3af; margin-bottom: 1rem;"></i>
+                <h3>Нет сообщений</h3>
+                <p>Сообщения от клиентов появятся здесь</p>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Функция для отметки прочитанным
+        const markReadButtons = document.querySelectorAll('.mark-read');
+        markReadButtons.forEach(button => {
+            button.addEventListener('click', function () {
+                const messageId = this.dataset.messageId;
+
+                fetch(`/admin/message/${messageId}/read`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    }
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.status === 'success') {
+                            const messageCard = this.closest('.message-card');
+                            messageCard.classList.remove('message-unread');
+
+                            // Заменяем кнопку на бейдж
+                            const actionsContainer = this.parentElement;
+                            const readBadge = document.createElement('span');
+                            readBadge.className = 'read-badge';
+                            readBadge.innerHTML = '<i class="fas fa-check-circle"></i> Прочитано';
+
+                            this.replaceWith(readBadge);
+
+                            // Обновляем счетчик непрочитанных
+                            updateMessageCounts();
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        alert('Ошибка при обновлении сообщения');
+                    });
+            });
+        });
+
+        // Функция для удаления сообщений
+        const deleteButtons = document.querySelectorAll('.delete-message');
+        deleteButtons.forEach(button => {
+            button.addEventListener('click', function () {
+                const messageId = this.dataset.messageId;
+                const messageElement = document.getElementById(`message-${messageId}`);
+
+                if (confirm('Вы уверены, что хотите удалить это сообщение?')) {
+                    fetch(`/admin/message/${messageId}/delete`, {
+                        method: 'DELETE',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        }
+                    })
+                        .then(response => response.json())
+                        .then(data => {
+                            if (data.status === 'success') {
+                                // Плавное исчезновение сообщения
+                                messageElement.style.opacity = '0';
+                                messageElement.style.transform = 'translateX(-20px)';
+                                setTimeout(() => {
+                                    messageElement.remove();
+
+                                    // Обновляем счетчики
+                                    updateMessageCounts();
+                                }, 300);
+                            }
+                        })
+                        .catch(error => {
+                            console.error('Error:', error);
+                            alert('Ошибка при удалении сообщения');
+                        });
+                }
+            });
+        });
+
+        // Функция для обновления счетчиков сообщений
+        function updateMessageCounts() {
+            const messageCards = document.querySelectorAll('.message-card');
+            const unreadMessages = document.querySelectorAll('.message-unread');
+
+            // Обновляем статистику
+            document.querySelector('.admin-stat-card:nth-child(1) .stat-number').textContent = messageCards.length;
+            document.querySelector('.admin-stat-card:nth-child(2) .stat-number').textContent = unreadMessages.length;
+
+            // Если сообщений не осталось, показываем заглушку
+            if (messageCards.length === 0) {
+                const messagesList = document.querySelector('.messages-list');
+                messagesList.innerHTML = `
+                <div class="no-messages">
+                    <i class="fas fa-inbox" style="font-size: 3rem; color: #9ca3af; margin-bottom: 1rem;"></i>
+                    <h3>Нет сообщений</h3>
+                    <p>Сообщения от клиентов появятся здесь</p>
+                </div>
+            `;
+            }
+        }
+    });
+</script>
+
+<style>
+    .admin-welcome {
+        margin-top: 15px;
+        padding: 10px 15px;
+        background: #f8fafc;
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logout-btn {
+        background: #ef4444;
+        color: white;
+        padding: 8px 16px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-size: 0.9rem;
+        transition: all 0.3s;
+    }
+
+        .logout-btn:hover {
+            background: #dc2626;
+            transform: translateY(-1px);
+        }
+
+    .no-messages {
+        text-align: center;
+        padding: 60px 20px;
+        color: #6b7280;
+    }
+
+        .no-messages h3 {
+            margin-bottom: 10px;
+            color: #374151;
+        }
+
+    .message-card {
+        transition: all 0.3s ease;
+    }
+</style>
+{% endblock %}

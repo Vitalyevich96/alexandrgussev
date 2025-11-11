@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Python Web Developer - Создание веб-приложений на Python{% endblock %}</title>
+    <link href="/static/css/style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">
+                <i class="fas fa-code"></i>
+                Python Dev
+            </a>
+            <div class="nav-menu">
+                <a href="/" class="nav-link">Главная</a>
+                <a href="/services" class="nav-link">Услуги</a>
+                <a href="/portfolio" class="nav-link">Портфолио</a>
+                <a href="/contact" class="nav-link">Контакты</a>
+            </div>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3><i class="fas fa-code"></i> Python Web Developer</h3>
+                <p>Профессиональная разработка веб-приложений на Python любой сложности</p>
+            </div>
+            <div class="footer-section">
+                <h4>Контакты</h4>
+                <p><i class="fas fa-envelope"></i> vitalyevich96@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +7 (708) 535-26-46</p>
+            </div>
+            <div class="footer-section">
+                <h4>Быстрые ссылки</h4>
+                <a href="/services">Услуги</a>
+                <a href="/portfolio">Портфолио</a>
+                <a href="/contact">Связаться</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Python Web Development. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>

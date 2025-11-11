@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% block title %}Портфолио - Python Web Developer{% endblock %}
+
+{% block content %}
+<section class="page-header">
+    <div class="container">
+        <h1>Мое портфолио</h1>
+        <p>Реализованные проекты и успешные кейсы</p>
+    </div>
+</section>
+
+<section class="portfolio-grid">
+    <div class="container">
+        ___________________________________________________________________________________________________________________
+        <div class="projects-grid-full">
+            {% for project in projects %}
+            <div class="project-card-full">
+                <div class="project-image-large">
+
+                </div>
+                <div class="project-details">
+                    <h3>{{ project.title }}</h3>
+                    <p class="project-description">{{ project.description }}</p>
+
+                    <div class="project-meta">
+                        <div class="meta-item">
+                            <strong><i class="fas fa-cogs"></i> Технологии:</strong>
+                            <span>{{ project.technologies }}</span>
+                        </div>
+
+                    </div>
+___________________________________________________________________________________________________________________
+                    <div class="project-links">
+                        {% if project.project_url %}
+
+                        {% endif %}
+                        {% if project.github_url %}
+
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section class="stats">
+    <div class="container">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number">{{ projects|length }}+</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Года опыта</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Довольных клиентов</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">24/7</div>
+                <div class="stat-label">Поддержка</div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

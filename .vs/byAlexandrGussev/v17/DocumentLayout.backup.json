@@ -1,0 +1,361 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\templates\\admin.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|solutionrelative:templates\\admin.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\templates\\portfolio.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|solutionrelative:templates\\portfolio.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\static\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|solutionrelative:static\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\auth.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|solutionrelative:auth.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\main.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|solutionrelative:main.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\templates\\change_password.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|solutionrelative:templates\\change_password.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\templates\\admin_login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|solutionrelative:templates\\admin_login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\database.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|solutionrelative:database.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\models.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|solutionrelative:models.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|solutionrelative:requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\templates\\base.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|solutionrelative:templates\\base.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\templates\\contact.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|solutionrelative:templates\\contact.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\templates\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|solutionrelative:templates\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\templates\\services.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|solutionrelative:templates\\services.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\data\\portfolio.db||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|solutionrelative:data\\portfolio.db||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\nginx.conf||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|solutionrelative:nginx.conf||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|solutionrelative:Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\static\\images\\favicon.ico||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|solutionrelative:static\\images\\favicon.ico||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\static\\images\\logo.png||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|solutionrelative:static\\images\\logo.png||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\static\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{728CE839-AC6A-461F-BA74-9EA9A258ADE1}|byAlexandrGussev.pyproj|solutionrelative:static\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "admin_login.html",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\templates\\admin_login.html",
+              "RelativeDocumentMoniker": "templates\\admin_login.html",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\templates\\admin_login.html",
+              "RelativeToolTip": "templates\\admin_login.html",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwDIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-11T03:35:46.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\templates\\index.html",
+              "RelativeDocumentMoniker": "templates\\index.html",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\templates\\index.html",
+              "RelativeToolTip": "templates\\index.html",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAE0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-11T02:50:55.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "requirements.txt",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\requirements.txt",
+              "RelativeDocumentMoniker": "requirements.txt",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\requirements.txt",
+              "RelativeToolTip": "requirements.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-11-11T02:50:11.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "models.py",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\models.py",
+              "RelativeDocumentMoniker": "models.py",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\models.py",
+              "RelativeToolTip": "models.py",
+              "ViewState": "AgIAABEAAAAAAAAAAADwvz8AAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-11-11T02:49:52.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "portfolio.html",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\templates\\portfolio.html",
+              "RelativeDocumentMoniker": "templates\\portfolio.html",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\templates\\portfolio.html",
+              "RelativeToolTip": "templates\\portfolio.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-11T02:51:11.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "database.py",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\database.py",
+              "RelativeDocumentMoniker": "database.py",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\database.py",
+              "RelativeToolTip": "database.py",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-11-11T02:50:03.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "main.py",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\main.py",
+              "RelativeDocumentMoniker": "main.py",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\main.py",
+              "RelativeToolTip": "main.py",
+              "ViewState": "AgIAAPwAAAAAAAAAAAAswCsBAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-11-11T02:49:19.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "base.html",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\templates\\base.html",
+              "RelativeDocumentMoniker": "templates\\base.html",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\templates\\base.html",
+              "RelativeToolTip": "templates\\base.html",
+              "ViewState": "AgIAABkAAAAAAAAAAAAwwCwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-11T02:50:48.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "services.html",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\templates\\services.html",
+              "RelativeDocumentMoniker": "templates\\services.html",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\templates\\services.html",
+              "RelativeToolTip": "templates\\services.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-11T02:51:02.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "contact.html",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\templates\\contact.html",
+              "RelativeDocumentMoniker": "templates\\contact.html",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\templates\\contact.html",
+              "RelativeToolTip": "templates\\contact.html",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-11T02:51:18.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "admin.html",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\templates\\admin.html",
+              "RelativeDocumentMoniker": "templates\\admin.html",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\templates\\admin.html",
+              "RelativeToolTip": "templates\\admin.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-11T02:51:25.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\static\\css\\style.css",
+              "RelativeDocumentMoniker": "static\\css\\style.css",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\static\\css\\style.css",
+              "RelativeToolTip": "static\\css\\style.css",
+              "ViewState": "AgIAAMUBAAAAAAAAAAAowM4BAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-11T02:54:09.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "auth.py",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\auth.py",
+              "RelativeDocumentMoniker": "auth.py",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\auth.py",
+              "RelativeToolTip": "auth.py",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAswDsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-11-11T03:34:20.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "change_password.html",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\templates\\change_password.html",
+              "RelativeDocumentMoniker": "templates\\change_password.html",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\templates\\change_password.html",
+              "RelativeToolTip": "templates\\change_password.html",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAwwKoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-11T04:17:10.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "nginx.conf",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\nginx.conf",
+              "RelativeDocumentMoniker": "nginx.conf",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\nginx.conf",
+              "RelativeToolTip": "nginx.conf",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-11T02:57:24.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-11T02:50:22.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-11-11T02:50:30.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "portfolio.db",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\data\\portfolio.db",
+              "RelativeDocumentMoniker": "data\\portfolio.db",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\data\\portfolio.db",
+              "RelativeToolTip": "data\\portfolio.db",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGHSURBVDhPjZPNSxtBGIefXTcSYlv2T1CKWAVFSgsVvClCexBEqteK5yJEl22gheLBD4KCIPpneGwp4hcKNdQqiGDxkNBW8WI\u002BDtltkp2Ml\u002B6iO8b4wMB8/N6HeWFG4z8J20qDbPbXKlrGqzKUTCaPgi0pZTBP2FOyXC7XHAl7Sk5//pSzLKs7KAL0m4t6vBsbNx83RTdvSh4sME2T1ZVlXNc1DV1uhs\u002BVFtZ3f8hvOymlFb8dv065wclZhq/b\u002B2Rzea6yOda\u002BbPHz\u002BDQcC1AEhq7jOC4vutp52d2B4zoYhhILUE48IahUyoiqoCoEXqWC54lwLEARlEolNGBrL8XG7nc0DVIHhzjuv3AU7hI873zGyOAATx7FEJ7g4vKc33//MLe4xOmvs3BcFfgMvenndV8vhXyBmY82\u002BWyWaLQxHKstACgWHQwd3sctIpGGWy/X515BW\u002BtTPsQn6O15xcLcDC3N6le5VwDQFIsx\u002BnY4vB1QV1APzZ8k7Mk0aOod70RmZucXWgCuAZnTw6qHi\u002BiqAAAAAElFTkSuQmCC",
+              "WhenOpened": "2025-11-11T02:55:11.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "favicon.ico",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\static\\images\\favicon.ico",
+              "RelativeDocumentMoniker": "static\\images\\favicon.ico",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\static\\images\\favicon.ico",
+              "RelativeToolTip": "static\\images\\favicon.ico",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2025-11-11T02:54:53.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "logo.png",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\static\\images\\logo.png",
+              "RelativeDocumentMoniker": "static\\images\\logo.png",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\static\\images\\logo.png",
+              "RelativeToolTip": "static\\images\\logo.png",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-11-11T02:54:44.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "script.js",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\static\\js\\script.js",
+              "RelativeDocumentMoniker": "static\\js\\script.js",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\project\\byAlexandrGussev\\static\\js\\script.js",
+              "RelativeToolTip": "static\\js\\script.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-11T02:54:25.567Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

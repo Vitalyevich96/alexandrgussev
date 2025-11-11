@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block title %}Услуги - Python Web Developer{% endblock %}
+
+{% block content %}
+<section class="page-header">
+    <div class="container">
+        <h1>Мои услуги</h1>
+        <p>Полный спектр услуг по разработке веб-приложений на Python</p>
+    </div>
+</section>
+
+<section class="services-list">
+    <div class="container">
+        <div class="services-grid">
+            {% for service in services %}
+            <div class="service-card-large">
+                <div class="service-header">
+                    <div class="service-icon">
+                        <i class="{{ service.icon }}"></i>
+                    </div>
+                    <h3>{{ service.title }}</h3>
+                </div>
+                <div class="service-body">
+                    <p>{{ service.description }}</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Индивидуальный подход</li>
+                        <li><i class="fas fa-check"></i> Качественный код</li>
+                        <li><i class="fas fa-check"></i> Поддержка после запуска</li>
+                        <li><i class="fas fa-check"></i> Техническая документация</li>
+                    </ul>
+                </div>
+                <div class="service-footer">
+                    <a href="/contact?service={{ service.title }}" class="btn btn-primary">
+                        <i class="fas fa-comments"></i> Обсудить проект
+                    </a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section class="process">
+    <div class="container">
+        <h2>Процесс работы</h2>
+        <div class="process-steps">
+            <div class="process-step">
+                <div class="step-number">1</div>
+                <h3>Обсуждение</h3>
+                <p>Анализируем требования, определяем цели и составляем ТЗ</p>
+            </div>
+            <div class="process-step">
+                <div class="step-number">2</div>
+                <h3>Разработка</h3>
+                <p>Создаем приложение по agile методологии с регулярными демо</p>
+            </div>
+            <div class="process-step">
+                <div class="step-number">3</div>
+                <h3>Тестирование</h3>
+                <p>Проводим полное тестирование и исправляем ошибки</p>
+            </div>
+            <div class="process-step">
+                <div class="step-number">4</div>
+                <h3>Запуск</h3>
+                <p>Разворачиваем приложение и обеспечиваем поддержку</p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
